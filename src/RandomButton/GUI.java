@@ -118,40 +118,15 @@ import java.util.Set;
 
             //math code
             Random num1 = new Random();
-            strMax = textField.getText();
-            max = Integer.parseInt(strMax);
-            x = num1.nextInt(max) + 1;
-            strX = String.valueOf(x);
-            label.setText(strX);
+            label.setText(String.valueOf(num1.nextInt(Integer.parseInt(textField.getText())) + 1));
             
-            Random num2 = new Random();
-            strMax = textField.getText();
-            max = Integer.parseInt(strMax);
-            x2 = num2.nextInt(max) + 1;
-            strX2 = String.valueOf(x2);
-            label.setText(strX2);
+            label.setText(String.valueOf(num1.nextInt(Integer.parseInt(textField.getText())) + 1));
             
+            label.setText(String.valueOf(num1.nextInt(Integer.parseInt(textField.getText())) + 1));
                    
-            Random num3 = new Random();
-            strMax = textField.getText();
-            max = Integer.parseInt(strMax);
-            x3 = num3.nextInt(max) + 1;
-            strX3 = String.valueOf(x3);
-            label.setText(strX3);
-                   
-            Random num4 = new Random();
-            strMax = textField.getText();
-            max = Integer.parseInt(strMax);
-            x4 = num4.nextInt(max) + 1;
-            strX4 = String.valueOf(x4);
-            label.setText(strX4);
+            label.setText(String.valueOf(num1.nextInt(Integer.parseInt(textField.getText())) + 1));
                       
-            Random num5 = new Random();
-            strMax = textField.getText();
-            max = Integer.parseInt(strMax);
-            x5 = num5.nextInt(max) + 1;
-            strX5 = String.valueOf(x5);
-            label.setText(strX5);
+            label.setText(String.valueOf(num1.nextInt(Integer.parseInt(textField.getText())) + 1));
             
             
             
