@@ -118,16 +118,16 @@ import java.util.Set;
             contentPanel.add(label);
 
             //math code
-            Random num1 = new Random();
-            label.setText(String.valueOf(num1.nextInt(Integer.parseInt(textField.getText())) + 1));
+            Random rand = new Random();
+            label.setText(String.valueOf(rand.nextInt(Integer.parseInt(textField.getText())) + 1));
             
-            label.setText(String.valueOf(num1.nextInt(Integer.parseInt(textField.getText())) + 1));
+            label.setText(String.valueOf(rand.nextInt(Integer.parseInt(textField.getText())) + 1));
             
-            label.setText(String.valueOf(num1.nextInt(Integer.parseInt(textField.getText())) + 1));
+            label.setText(String.valueOf(rand.nextInt(Integer.parseInt(textField.getText())) + 1));
                    
-            label.setText(String.valueOf(num1.nextInt(Integer.parseInt(textField.getText())) + 1));
+            label.setText(String.valueOf(rand.nextInt(Integer.parseInt(textField.getText())) + 1));
                       
-            label.setText(String.valueOf(num1.nextInt(Integer.parseInt(textField.getText())) + 1));
+            label.setText(String.valueOf(rand.nextInt(Integer.parseInt(textField.getText())) + 1));
             
             
             
