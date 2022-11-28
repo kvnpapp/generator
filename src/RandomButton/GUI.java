@@ -35,6 +35,7 @@ import java.util.Set;
                     frame.setVisible(true);
                     frame.setResizable(false);
                 } catch (Exception e) {
+                    
                 }
             });
         }
